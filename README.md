@@ -394,7 +394,7 @@ These are potential improvements, not features claimed to be implemented already
 ## 17. Author and Link
 
 - **Author:** Mohammed Aqlath A
-- **Live application:** ![Supply chain prediction](https://supply-chain-late-delivery-prediction-mylelz9useppqsqrcjyrrz.streamlit.app/)
+- **Live application:** [Open Supply Chain Risk Predictor](https://supply-chain-late-delivery-prediction-mylelz9useppqsqrcjyrrz.streamlit.app/)
 
 
 ---
