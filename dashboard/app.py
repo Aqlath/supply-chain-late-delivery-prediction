@@ -573,7 +573,7 @@ if page == "Predict Shipment":
             ):
 
                 response = requests.post(
-                    f"{API_URL}/predict",
+                    API_URL,
                     json=payload,
                     timeout=60
                 )
@@ -801,12 +801,14 @@ if page == "Predict Shipment":
                     "information and actual operational records."
                 )
 
+        
         except requests.exceptions.ConnectionError:
-
             st.error(
-                "Cannot connect to FastAPI. Start the backend in another "
-                "terminal with: python -m uvicorn api.main:app --reload"
-            )
+                "Cannot connect to the prediction API. "
+                "The Render service may be starting up or temporarily unavailable. "
+                "Please wait a moment and try again."
+                )
+
 
         except requests.exceptions.HTTPError as error:
 
