@@ -1,0 +1,5 @@
+Type,Total_Shipments,High_Risk_Shipments,Average_Risk_Probability,High_Risk_Rate_Percent
+CASH,19616,7333,0.571,37.38
+PAYMENT,41725,15591,0.5741,37.37
+DEBIT,69295,25801,0.5708,37.23
+TRANSFER,49883,12091,0.4873,24.24

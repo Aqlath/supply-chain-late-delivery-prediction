@@ -1,0 +1,30 @@
+
+# Data processing
+numpy
+pandas
+scipy
+
+# Machine learning and preprocessing
+scikit-learn
+xgboost
+joblib
+
+# Model explainability
+shap
+
+# FastAPI backend
+fastapi
+uvicorn[standard]
+pydantic
+
+# Streamlit dashboard
+streamlit
+
+# Visualizations
+matplotlib
+seaborn
+plotly
+
+# Jupyter Notebook support
+jupyter
+ipykernel
