@@ -27,7 +27,7 @@ PROCESSED_DATA_PATH = (
     / "DataCoSupplyChain_ML_ready.csv"
 )
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://supply-chain-late-delivery-api.onrender.com/predict"
 
 
 # 2. LOAD DATA
